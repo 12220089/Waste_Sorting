@@ -1,38 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e9f5e9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+}
+
+.image-uploader {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  color: #2e7d32; /* Dark Green */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  border: 2px solid #388e3c; /* Medium Green */
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+
+input[type="file"]:hover {
+  border-color: #2e7d32; /* Dark Green on hover */
+}
+
+button {
+  background-color: #388e3c; /* Medium Green */
   color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #2e7d32; /* Dark Green on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  margin-top: 20px;
+  color: #2e7d32; /* Dark Green */
+}
+
+img {
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
 }
