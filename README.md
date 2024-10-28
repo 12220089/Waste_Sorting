@@ -1,4 +1,4 @@
-# Problem Statement
+## Problem Statement
 1. The growing volume of waste in modern societies poses serious environmental and
 economic challenges. Efficient waste management is essential to mitigate these impacts, and waste sorting—categorizing waste for proper disposal or recycling—is
 a critical component. However, many communities face difficulties with effective
@@ -10,23 +10,23 @@ management a pressing issue.
 3. Recognizing the need for a sustainable solution, we are going to develop a waste
 sorting assistant system. This initiative aims to streamline waste management
 
-# Aims
+## Aims
 To enhance waste sorting accuracy and efficiency by integrating the assistant with
 current waste management systems, reducing contamination, and boosting recycling
 rates
 
-# Objectives
+## Objectives
 1. To design and implement a computer vision algorithm capable of identifying and
 classifying various waste materials, including plastics, metals, paper, and organic
 waste, with high accuracy.
 2. To develop a user-friendly interface for the waste sorting assistant that provides
 clear instructions, ensuring ease of use and effective interaction with the system.
 
-# System Overview
+## System Overview
 
 ![image](https://github.com/user-attachments/assets/1cc6d114-9e2d-4665-afb7-be34c951c457)
 
-# Dataset
+## Dataset
 For this project, we are utilizing an existing dataset sourced from Kaggle. The dataset
 was initially organized into four distinct classes: Hazardous, Non-Recyclable, Organic,
 and Recyclable. However, for the purposes of our project, we have reclassified the dataset
@@ -44,7 +44,7 @@ The dataset is organized in a standard folder structure where each class has its
 directory containing the respective images. Each image is labeled according to the class
 it belongs to
 
-# Evaluation Metrics
+## Evaluation Metrics
 1. Accuracy: To measure overall classification performance.
 2. Precision and Recall: Important for understanding the model’s effectiveness in
 identifying each category correctly.
@@ -52,7 +52,7 @@ identifying each category correctly.
 classified (true positives and true negatives) and how many were misclassified (false
 positives and false negatives).
 
-# Future Recommendations
+## Future Recommendations
 Model Optimization: Further tuning of the model’s hyperparameters or exploring advanced architectures (e.g., ResNet, EfficientNet) could help improve precision and recall,
 particularly in distinguishing more challenging items.
 Augmented Dataset: Incorporating a more diverse and larger dataset, possibly including
