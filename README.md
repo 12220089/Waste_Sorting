@@ -22,5 +22,46 @@ waste, with high accuracy.
 2. To develop a user-friendly interface for the waste sorting assistant that provides
 clear instructions, ensuring ease of use and effective interaction with the system.
 
+# System Overview
+
+![image](https://github.com/user-attachments/assets/1cc6d114-9e2d-4665-afb7-be34c951c457)
+
+# Dataset
+For this project, we are utilizing an existing dataset sourced from Kaggle. The dataset
+was initially organized into four distinct classes: Hazardous, Non-Recyclable, Organic,
+and Recyclable. However, for the purposes of our project, we have reclassified the dataset
+into two broader categories: Recyclable and Non-Recyclable.
+The dataset is structured as follows:
+• Recyclable: This class includes images of waste materials that can be recycled,
+such as plastics, metals, and paper.
+• Non-Recyclable: This class includes images of waste materials that cannot be
+recycled, such as certain types of plastics, contaminated items, and hazardous materials.
+After reclassification, the dataset now consists of:
+• Class Non-Recyclable: 1,580 images
+• Class Recyclable: 1,312 images
+• Total Images: 2,892 images
+The dataset is organized in a standard folder structure where each class has its own
+directory containing the respective images. Each image is labeled according to the class
+it belongs to
+
+# Evaluation Metrics
+1. Accuracy: To measure overall classification performance.
+2. Precision and Recall: Important for understanding the model’s effectiveness in
+identifying each category correctly.
+3. Confusion Matrix: It allows you to see how many instances were correctly
+classified (true positives and true negatives) and how many were misclassified (false
+positives and false negatives).
+
+# Future Recommendations
+Model Optimization: Further tuning of the model’s hyperparameters or exploring advanced architectures (e.g., ResNet, EfficientNet) could help improve precision and recall,
+particularly in distinguishing more challenging items.
+Augmented Dataset: Incorporating a more diverse and larger dataset, possibly including
+real-world images of waste in various environments, could help the model generalize better
+to different waste types.
+Integration with Other Sensors: Combining image-based classification with other data
+sources (e.g., sensors for material composition) could further improve accuracy and reliability.
+Deployment: Future studies should focus on real-world deployment in waste management
+systems, assessing the model’s performance in dynamic and noisy environments, which
+would contribute to sustainability efforts by enhancing recycling processes
 
 
