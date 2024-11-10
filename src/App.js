@@ -12,7 +12,14 @@ function App() {
       <div className="App">
         <header style={{ display: 'flex', alignItems: 'center', padding: '10px', backgroundColor: '#23494A', color: 'white' }}>
         <Link to="/" className="logo">
-            <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Waste Sorting Assistant Logo" style={{ height: '40px', marginRight: '20px', marginLeft: '20px', marginBottom: '10px' }} />
+        <img 
+  src={`${process.env.PUBLIC_URL}/logo.png`} 
+  alt="Waste Sorting Assistant Logo" 
+  style={{ height: 'auto', width: '80px', marginLeft:'20px'
+  }} 
+/>
+
+
         </Link>
           
           <nav style={{ marginLeft: 'auto' }}>
