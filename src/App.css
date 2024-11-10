@@ -8,11 +8,47 @@ body {
 
 .App {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  margin-bottom: 0;
 }
 
+/* Header and Navigation Styles */
+header {
+  width: 100%;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #2e7d32; /* Dark Green */
+  color: #ffffff;
+}
+
+/* Image Uploader Styles */
 .image-uploader {
   background: #fff;
   border-radius: 10px;
@@ -21,10 +57,11 @@ body {
   text-align: center;
   max-width: 400px;
   width: 100%;
+  margin-top: 30px;
 }
 
 h1 {
-  color: #2e7d32; /* Dark Green */
+  color: #49a54d; /* Dark Green */
   font-size: 24px;
   margin-bottom: 20px;
 }

@@ -1,0 +1,35 @@
+/* Ensures the main container takes up the full viewport height */
+.image-uploader-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-uploader {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    width: 99vw;
+}
+
+.footer-links a {
+    color: #f5f5f5;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
