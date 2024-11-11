@@ -54,10 +54,10 @@ it belongs to.
 ![WhatsApp Image 2024-10-29 at 13 18 14_d12a187a](https://github.com/user-attachments/assets/e05bc045-fed1-414b-bf07-7f54899ecab8)
 
 ## Evaluation Metrics
-Confusion Matrix
+#### Confusion Matrix
 ![WhatsApp Image 2024-10-29 at 13 18 38_375e83a3](https://github.com/user-attachments/assets/459b2514-e723-4d34-bcf4-52a71a2a8b4e)
 
-Classification Report
+#### Classification Report
 ![WhatsApp Image 2024-10-29 at 13 18 53_6613e057](https://github.com/user-attachments/assets/cfd82512-422c-4bf6-8eef-7b4520d76549)
 
 
