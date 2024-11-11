@@ -5,7 +5,7 @@ import cv2
 from my_model import load_model, preprocess_image
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000"])  # Allow requests from your React app
+CORS(app)  # Allow requests from your React app
 
 
 # Load your model
