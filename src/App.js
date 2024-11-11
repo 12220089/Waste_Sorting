@@ -21,7 +21,6 @@ function App() {
 
 
         </Link>
-          
           <nav style={{ marginLeft: 'auto' }}>
             <Link to="/" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Home</Link>
             <Link to="/about-us" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>About Us</Link>
