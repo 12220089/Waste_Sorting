@@ -73,4 +73,6 @@ Deployment: Future studies should focus on real-world deployment in waste manage
 systems, assessing the model’s performance in dynamic and noisy environments, which
 would contribute to sustainability efforts by enhancing recycling processes
 
+## Deployed Link
+https://waste-sorting.onrender.com/
 
