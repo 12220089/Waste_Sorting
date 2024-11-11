@@ -42,15 +42,24 @@ After reclassification, the dataset now consists of:
 • Total Images: 2,892 images
 The dataset is organized in a standard folder structure where each class has its own
 directory containing the respective images. Each image is labeled according to the class
-it belongs to
+it belongs to.
+
+## Result and Discussions
+
+#### Training and Validation Accuracy
+
+![WhatsApp Image 2024-10-29 at 13 17 58_e4d05832](https://github.com/user-attachments/assets/8540638c-cddc-4c3b-9268-29dd21ed6ef6)
+
+#### Training and Validation Loss
+![WhatsApp Image 2024-10-29 at 13 18 14_d12a187a](https://github.com/user-attachments/assets/e05bc045-fed1-414b-bf07-7f54899ecab8)
 
 ## Evaluation Metrics
-1. Accuracy: To measure overall classification performance.
-2. Precision and Recall: Important for understanding the model’s effectiveness in
-identifying each category correctly.
-3. Confusion Matrix: It allows you to see how many instances were correctly
-classified (true positives and true negatives) and how many were misclassified (false
-positives and false negatives).
+Confusion Matrix
+![WhatsApp Image 2024-10-29 at 13 18 38_375e83a3](https://github.com/user-attachments/assets/459b2514-e723-4d34-bcf4-52a71a2a8b4e)
+
+Classification Report
+![WhatsApp Image 2024-10-29 at 13 18 53_6613e057](https://github.com/user-attachments/assets/cfd82512-422c-4bf6-8eef-7b4520d76549)
+
 
 ## Future Recommendations
 Model Optimization: Further tuning of the model’s hyperparameters or exploring advanced architectures (e.g., ResNet, EfficientNet) could help improve precision and recall,
